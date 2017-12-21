@@ -1,5 +1,11 @@
 # SOLID Principles
 
+**Reference Links:**
+1. https://team-coder.com/solid-principles/
+
+2. http://blog.gauffin.org/2012/05/solid-principles-with-real-world-examples/
+
+
 # 1. Single Responsibility Principle
 
 **A class should have one, and only one, reason to change.**
