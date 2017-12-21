@@ -5,6 +5,18 @@
 
 2. http://blog.gauffin.org/2012/05/solid-principles-with-real-world-examples/
 
+3. https://dzone.com/articles/solid-principles-by-examples-single-responsability
+
+4. https://dzone.com/articles/solid-principles-by-examples-openclosed
+
+5. https://dzone.com/articles/solid-principles-by-examples-liskov-substitution-p
+
+6. https://dzone.com/articles/solid-principles-by-example-interface-segregation
+
+7. https://dzone.com/articles/solid-principles-by-example-dependency-inversion
+
+
+
 
 # 1. Single Responsibility Principle
 
