@@ -1,6 +1,6 @@
 # SOLID Principles
 
-#1. Single Responsibility Principle
+# 1. Single Responsibility Principle
 
 **A class should have one, and only one, reason to change.**
 
@@ -13,7 +13,7 @@ Every class is responsible for exactly one thing. That means it has only one rea
 A ScoreCounter class is only responsible for counting the score of a game according to the scoring rules. This class should only change if the scoring rules change.
 
 
-#2. Open-Closed Principle
+# 2. Open-Closed Principle
 
 **You should be able to extend a classes behavior, without modifying it.**
 
@@ -27,7 +27,7 @@ Inheritance may be the most popular way to implement the Open-Closed Principle b
 
 Imagine you use an external library which contains a class Car. The Car has a method brake. In its base implementation, this method only slows down the car but you also want to turn on the brake lights. You would create a subclass of Car and override the method brake. After calling the original method of the super class, you can call your own turnOnBrakeLights method. This way you have extended the Car‘s behavior without touching the original class from the library.
 
-#3. Liskov Substitution Principle
+# 3. Liskov Substitution Principle
 
 **Derived classes must be substitutable for their base classes.**
 
@@ -41,7 +41,7 @@ The implementation of this principle can be a little bit tricky if you combine i
 
 You have an instance of the class Car which your program uses to perform a drive action. This instance could be replaced by an instance of the class Tesla if Tesla is a subclass of Car.
 
-#4. Interface Segregation Principle
+# 4. Interface Segregation Principle
 
 **Make fine grained interfaces that are client specific.**
 
@@ -53,7 +53,7 @@ Classes should be as specialized as possible. You do not want any god classes th
 
 In an adventure game, you have a class for your main character. The player can either be a warrior or an archer or a wizard. Instead of a class which can perform all the actions, like strike, shoot and heal, you would create three different classes, one for each character type. In the end, you would not only have a Character class but also a Warrior, an Archer and a Wizard, all inheriting from Character and implementing their specific actions.
 
-#5. Dependency Inversion Principle
+# 5. Dependency Inversion Principle
 
 **Depend on abstractions, not on concretions.**
 
