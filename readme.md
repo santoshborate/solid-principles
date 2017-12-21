@@ -1,6 +1,6 @@
 # SOLID Principles
 
-# 1. Single Responsibility Principle
+#1. Single Responsibility Principle
 
 **A class should have one, and only one, reason to change.**
 
