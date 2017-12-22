@@ -49,6 +49,8 @@ Imagine you use an external library which contains a class Car. The Car has a me
 
 **Derived classes must be substitutable for their base classes.**
 
+**Make small and specific interfaces so the client who implements them does not depend on methods it does not need.**
+
 **Description:**
 
 Assume we have a class B which is a subclass of A. If your program works with an object a of class A you can replace it with an object b of class B without changing the behavior of the program.
