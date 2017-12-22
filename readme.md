@@ -75,6 +75,16 @@ In an adventure game, you have a class for your main character. The player can e
 
 **Depend on abstractions, not on concretions.**
 
+
+The principle states:
+
+
+    High-level modules should not depend on low-level modules. Both should depend on abstractions.
+    
+
+    Abstractions should not depend on details. Details should depend on abstractions.
+
+
 **Description:**
 
 Classes should not depend on concrete details of other classes. Even classes from a high domain level should not handle the specific details of components from a lower level. Both low and high level classes should depend on the same abstractions. To create specific behavior you can use techniques like inheritance or interfaces.
