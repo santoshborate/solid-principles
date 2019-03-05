@@ -15,6 +15,15 @@
 
 7. https://dzone.com/articles/solid-principles-by-example-dependency-inversion
 
+** PHP Examples **
+
+1. https://www.hashbangcode.com/article/solid-principles-php
+
+2. https://hackernoon.com/solid-principles-simple-and-easy-explanation-f57d86c47a7f
+
+3. https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+    
+
 
 
 
