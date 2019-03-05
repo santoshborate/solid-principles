@@ -5,17 +5,7 @@
 
 2. http://blog.gauffin.org/2012/05/solid-principles-with-real-world-examples/
 
-3. https://dzone.com/articles/solid-principles-by-examples-single-responsability
-
-4. https://dzone.com/articles/solid-principles-by-examples-openclosed
-
-5. https://dzone.com/articles/solid-principles-by-examples-liskov-substitution-p
-
-6. https://dzone.com/articles/solid-principles-by-example-interface-segregation
-
-7. https://dzone.com/articles/solid-principles-by-example-dependency-inversion
-
-** PHP Examples **
+**PHP Examples**
 
 1. https://www.hashbangcode.com/article/solid-principles-php
 
@@ -37,7 +27,7 @@ Every class is responsible for exactly one thing. That means it has only one rea
 
 **Example:**
 
-A ScoreCounter class is only responsible for counting the score of a game according to the scoring rules. This class should only change if the scoring rules change.
+A `ScoreCounter` class is only responsible for counting the score of a game according to the scoring rules. This class should only change if the scoring rules change.
 
 
 # 2. Open-Closed Principle
@@ -52,7 +42,7 @@ Inheritance may be the most popular way to implement the Open-Closed Principle b
 
 **Example:**
 
-Imagine you use an external library which contains a class Car. The Car has a method brake. In its base implementation, this method only slows down the car but you also want to turn on the brake lights. You would create a subclass of Car and override the method brake. After calling the original method of the super class, you can call your own turnOnBrakeLights method. This way you have extended the Car‘s behavior without touching the original class from the library.
+Imagine you use an external library which contains a class `Car`. The Car has a method brake. In its base implementation, this method only slows down the car but you also want to turn on the brake lights. You would create a subclass of Car and override the method brake. After calling the original method of the super class, you can call your own `turnOnBrakeLights` method. This way you have extended the Car‘s behavior without touching the original class from the library.
 
 # 3. Liskov Substitution Principle
 
@@ -96,6 +86,8 @@ The principle states:
     
 
     Abstractions should not depend on details. Details should depend on abstractions.
+    
+    Classes should not depend on concrete details of other classes. Even classes from a high domain level should not handle the specific details of components from a lower level. Both low and high level classes should depend on the same abstractions. To create specific behavior you can use techniques like inheritance or interfaces.
 
 
 **Description:**
